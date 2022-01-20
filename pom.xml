@@ -52,19 +52,13 @@
 		</repository>
 	</repositories>
 
-	<distributionManagement>
+    <distributionManagement>
 		<repository>
-			<id>jboss-releases-repository</id>
-			<name>JBoss Releases Repository</name>
-			<url>https://repository.jboss.org/nexus/service/local/staging/deploy/maven2</url>
+			<id>nexus-fuseqe-repository</id>
+			<name>Nexus fuseqe Releases Repository</name>
+			<url>https://nexus.fuse-qe.eng.rdu2.redhat.com/repository/fuse-qe-repo</url>
 		</repository>
-		<snapshotRepository>
-			<id>jboss-snapshots-repository</id>
-			<name>JBoss Snapshots Repository</name>
-			<url>https://repository.jboss.org/nexus/content/repositories/snapshots</url>
-		</snapshotRepository>
 	</distributionManagement>
-
 
     <properties>
          <spring-boot-version>2.6.2</spring-boot-version>
