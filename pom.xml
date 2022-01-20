@@ -41,16 +41,30 @@
 		<url>https://gitlab.cee.redhat.com/fmariani/camel3-archetype-spring-boot</url>
 		<connection>scm:git:git://gitlab.cee.redhat.com/fmariani/camel3-archetype-spring-boot.git</connection>
 		<developerConnection>scm:git:git@gitlab.cee.redhat.com:fmariani/camel3-archetype-spring-boot.git</developerConnection>
-		<tag>camel3-archetype-spring-boot-1.0.0</tag>
+		<tag>HEAD</tag>
 	</scm>
 
-    <distributionManagement>
+	<repositories>
 		<repository>
-			<id>bintray-jboss-soa-qa-maven-jcontainer-manager</id>
-			<name>jboss-soa-qa-maven-jcontainer-manager</name>
-			<url>https://api.bintray.com/maven/jboss-soa-qa/maven/jcontainer-manager</url>
+			<id>jboss-releases-repository</id>
+			<name>JBoss Releases Repository</name>
+			<url>https://repository.jboss.org</url>
 		</repository>
+	</repositories>
+
+	<distributionManagement>
+		<repository>
+			<id>jboss-releases-repository</id>
+			<name>JBoss Releases Repository</name>
+			<url>https://repository.jboss.org/nexus/service/local/staging/deploy/maven2</url>
+		</repository>
+		<snapshotRepository>
+			<id>jboss-snapshots-repository</id>
+			<name>JBoss Snapshots Repository</name>
+			<url>https://repository.jboss.org/nexus/content/repositories/snapshots</url>
+		</snapshotRepository>
 	</distributionManagement>
+
 
     <properties>
          <spring-boot-version>2.6.2</spring-boot-version>
