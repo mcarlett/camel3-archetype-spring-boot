@@ -40,8 +40,8 @@
 	<scm>
 		<url>https://gitlab.cee.redhat.com/fmariani/camel3-archetype-spring-boot</url>
 		<connection>scm:git:git://gitlab.cee.redhat.com/fmariani/camel3-archetype-spring-boot.git</connection>
-		<developerConnection>scm:git:git@gitlab.cee.redhat.com/fmariani/camel3-archetype-spring-boot.git</developerConnection>
-		<tag>camel3-archetype-spring-boot-1.0.0</tag>
+		<developerConnection>scm:git:git@gitlab.cee.redhat.com:fmariani/camel3-archetype-spring-boot.git</developerConnection>
+		<tag>HEAD</tag>
 	</scm>
 
     <distributionManagement>
