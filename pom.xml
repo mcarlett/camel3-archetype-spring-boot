@@ -56,7 +56,7 @@
 		<repository>
 			<id>nexus-fuseqe-repository</id>
 			<name>Nexus fuseqe Releases Repository</name>
-			<url>https://nexus.fuse-qe.eng.rdu2.redhat.com/repository/fuse-qe-repo</url>
+			<url>http://nexus.fuse-qe.eng.rdu2.redhat.com/repository/fuse-qe-repo</url>
 		</repository>
 	</distributionManagement>
 
