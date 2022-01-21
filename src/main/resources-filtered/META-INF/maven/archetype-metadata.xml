@@ -27,6 +27,12 @@
     <requiredProperty key="spring-boot-version">
       <defaultValue>${spring-boot-version}</defaultValue>
     </requiredProperty>
+    <requiredProperty key="openshift-maven-plugin-group-id">
+      <defaultValue>${openshift-maven-plugin-group-id}</defaultValue>
+    </requiredProperty>
+    <requiredProperty key="openshift-maven-plugin-version">
+      <defaultValue>${openshift-maven-plugin-version}</defaultValue>
+    </requiredProperty>
     <requiredProperty key="maven-compiler-plugin-version">
       <defaultValue>${maven-compiler-plugin-version}</defaultValue>
     </requiredProperty>
