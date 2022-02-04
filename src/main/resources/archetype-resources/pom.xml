@@ -34,8 +34,6 @@
     <surefire.plugin.version>3.0.0-M4</surefire.plugin.version>
     <maven.compiler.source>11</maven.compiler.source>
     <maven.compiler.target>11</maven.compiler.target>
-    <openshift.maven.plugin.group.id>${openshift-maven-plugin-group-id}</openshift.maven.plugin.group.id>
-    <openshift.maven.plugin.version>${openshift-maven-plugin-version}</openshift.maven.plugin.version>
   </properties>
 
   <dependencyManagement>
@@ -121,25 +119,6 @@
           <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
       </dependencies>
-
-      <build>
-        <plugins>
-          <plugin>
-            <groupId>${openshift.maven.plugin.group.id}</groupId>
-            <artifactId>openshift-maven-plugin</artifactId>
-            <version>${openshift.maven.plugin.version}</version>
-            <executions>
-              <execution>
-                <goals>
-                  <goal>resource</goal>
-                  <goal>build</goal>
-                  <goal>apply</goal>
-                </goals>
-              </execution>
-            </executions>
-          </plugin>
-        </plugins>
-      </build>
     </profile>
   </profiles>
 </project>
