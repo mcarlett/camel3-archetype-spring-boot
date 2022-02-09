@@ -22,7 +22,7 @@ response=$(echo $response | tr '[:upper:]' '[:lower:]') # tolower
 if [[ $response =~ ^(yes|y) ]]; then
 	git checkout main
 	git pull origin main
-	mvn -B release:prepare -DreleaseVersion=$RELEASE_VERSION -DdevelopmentVersion=$DEVEL_VERSION
+	mvn -B release:prepare -DscmCommentPrefix=":bookmark: " -DreleaseVersion=$RELEASE_VERSION -DdevelopmentVersion=$DEVEL_VERSION
 	mvn release:perform
 	echo "Done!"
 else
