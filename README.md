@@ -4,10 +4,10 @@ Generate project
 
 ```
 mvn archetype:generate \
--DarchetypeGroupId=org.apache.camel.archetypes \
+-DarchetypeGroupId=software.tnb \
 -DarchetypeArtifactId=camel3-archetype-spring-boot \
--DarchetypeVersion=1.0.1-SNAPSHOT \
--DgroupId=org.apache.camel.archetypes
+-DarchetypeVersion=0.1.4 \
+-DgroupId=test.group \
 -DartifactId=build-it \
 -Dversion=0.0.1 \
 -Dpackage=org.apache.camel.archetypes.archetypeIT \
