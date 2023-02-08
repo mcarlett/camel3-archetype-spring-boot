@@ -13,7 +13,6 @@ mvn archetype:generate \
 -Dpackage=org.apache.camel.archetypes.archetypeIT \
 -Dmaven-compiler-plugin-version=3.8.1 \
 -Dspring-boot-version=2.7.8 \
--Dcamel-version=3.20.1 \
 -Dcamel-spring-boot-version=3.20.1.redhat-00023 \
 -B
 ```
