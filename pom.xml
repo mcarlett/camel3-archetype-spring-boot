@@ -26,7 +26,7 @@
     <name>Camel SB :: Archetypes :: Spring Boot Base App</name>
     <description>Creates a new Camel project using Spring Boot.</description>
     <packaging>maven-archetype</packaging>
-    <version>0.1.8-SNAPSHOT</version>
+    <version>0.1.8</version>
     <url>https://github.com/tnb-software/camel3-archetype-spring-boot</url>
 
     <licenses>
@@ -56,7 +56,7 @@
 		<url>https://github.com/tnb-software/camel3-archetype-spring-boot</url>
 		<connection>scm:git:https://github.com/tnb-software/camel3-archetype-spring-boot.git</connection>
 		<developerConnection>scm:git:https://github.com/tnb-software/camel3-archetype-spring-boot.git</developerConnection>
-		<tag>HEAD</tag>
+		<tag>0.1.8</tag>
 	</scm>
 
 	<distributionManagement>
