@@ -71,15 +71,22 @@
 	</distributionManagement>
 
 	<properties>
-		<maven.surefire.plugin.version>2.22.2</maven.surefire.plugin.version>
 		<maven.source.plugin.version>3.2.1</maven.source.plugin.version>
-		<maven.javadoc.plugin.version>3.4.0</maven.javadoc.plugin.version>
+		<maven.javadoc.plugin.version>3.4.1</maven.javadoc.plugin.version>
 		<nexus.staging.plugin.version>1.6.13</nexus.staging.plugin.version>
 		<maven.gpg.plugin.version>3.0.1</maven.gpg.plugin.version>
-		<spring-boot-version>2.7.8</spring-boot-version>
-		<camel-spring-boot-version>3.20.1.redhat-00023</camel-spring-boot-version>
 		<archetype.test.settingsFile>src/test/resources/settings.xml</archetype.test.settingsFile> <!-- Needed to download camel-spring-boot snapshots -->
 		<archetype-packaging.version>3.2.1</archetype-packaging.version>
+		<maven-compiler-plugin-version>3.10.1</maven-compiler-plugin-version>
+		<maven-surefire-plugin-version>3.0.0-M8</maven-surefire-plugin-version>
+		<dependencies-resolution>csb-dependencies</dependencies-resolution>
+		<java-version>11</java-version>
+		<encoding>UTF-8</encoding>
+		<project.build.sourceEncoding>${encoding}</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>${encoding}</project.reporting.outputEncoding>
+		<!-- properties overrideable at runtime -->
+		<default-camel-spring-boot-version>3.20.1.redhat-00023</default-camel-spring-boot-version>
+		<default-spring-boot-version>2.7.8</default-spring-boot-version>
 	</properties>
 
     <build>

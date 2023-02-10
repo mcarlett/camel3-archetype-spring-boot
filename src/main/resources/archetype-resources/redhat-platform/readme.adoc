@@ -32,5 +32,11 @@ You can run unit test of this example using
 
 You can find more information about Apache Camel at the website: http://camel.apache.org/
 
+== You can specify the version of Camel Spring Boot to use
+
+it is also possible to specify `spring-boot-version` used only for `spring-boot-maven-plugin:repackage` maven goal
+
+    mvn -Dcamel-spring-boot-version=3.20.1.redhat-00023 -Dspring-boot-version=2.7.8 spring-boot:run
+
 
 

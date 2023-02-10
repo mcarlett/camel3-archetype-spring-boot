@@ -21,14 +21,26 @@
     xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <requiredProperties>
-    <requiredProperty key="spring-boot-version">
-      <defaultValue>${spring-boot-version}</defaultValue>
+    <requiredProperty key="default-spring-boot-version">
+      <defaultValue>${default-spring-boot-version}</defaultValue>
     </requiredProperty>
-    <requiredProperty key="camel-spring-boot-version">
-      <defaultValue>${camel-spring-boot-version}</defaultValue>
+    <requiredProperty key="default-camel-spring-boot-version">
+      <defaultValue>${default-camel-spring-boot-version}</defaultValue>
     </requiredProperty>
     <requiredProperty key="maven-compiler-plugin-version">
       <defaultValue>${maven-compiler-plugin-version}</defaultValue>
+    </requiredProperty>
+    <requiredProperty key="maven-surefire-plugin-version">
+      <defaultValue>${maven-surefire-plugin-version}</defaultValue>
+    </requiredProperty>
+    <requiredProperty key="dependencies-resolution">
+      <defaultValue>${dependencies-resolution}</defaultValue>
+    </requiredProperty>
+    <requiredProperty key="java-version">
+      <defaultValue>${java-version}</defaultValue>
+    </requiredProperty>
+    <requiredProperty key="encoding">
+      <defaultValue>${encoding}</defaultValue>
     </requiredProperty>
   </requiredProperties>
   <fileSets>
@@ -60,6 +72,8 @@
       <directory/>
       <includes>
         <include>readme.adoc</include>
+        <include>csb-dependencies/**</include>
+        <include>redhat-platform/**</include>
       </includes>
     </fileSet>
   </fileSets>
