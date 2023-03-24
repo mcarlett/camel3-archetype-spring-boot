@@ -41,7 +41,7 @@
     <dependencies>
       <dependency>
         <groupId>com.redhat.camel.springboot.platform</groupId>
-        <artifactId>camel-springboot-bom</artifactId>
+        <artifactId>camel-spring-boot-bom</artifactId>
         <version>${camel-spring-boot-version}</version>
         <type>pom</type>
         <scope>import</scope>
@@ -83,6 +83,12 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-plugin</artifactId>
         <version>${maven-surefire-plugin-version}</version>
+      </plugin>
+      <plugin>
+        <groupId>com.redhat.camel.springboot.platform</groupId>
+        <artifactId>patch-maven-plugin</artifactId>
+        <version>${camel-spring-boot-version}</version>
+        <extensions>true</extensions>
       </plugin>
     </plugins>
   </build>
