@@ -23,13 +23,13 @@ if you want to use Red Hat platform dependencies add the parameter `-Ddependenci
 mvn archetype:generate \
 -DarchetypeGroupId=software.tnb \
 -DarchetypeArtifactId=camel3-archetype-spring-boot \
--DarchetypeVersion=0.1.8-SNAPSHOT \
+-DarchetypeVersion=0.1.9-SNAPSHOT \
 -DgroupId=test.group \
 -DartifactId=build-it \
 -Dversion=0.0.1 \
 -Dpackage=org.apache.camel.archetypes.archetypeIT \
--Ddefault-spring-boot-version=2.7.8 \
--Ddefault-camel-spring-boot-version=3.20.1.redhat-00023 \
+-Ddefault-spring-boot-version=2.7.9 \
+-Ddefault-camel-spring-boot-version=3.20.1.redhat-00043 \
 -Ddependencies-resolution=redhat-platform \
 -B
 ```
