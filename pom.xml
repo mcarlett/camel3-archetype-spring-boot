@@ -54,8 +54,8 @@
 
 	<scm>
 		<url>https://github.com/tnb-software/camel3-archetype-spring-boot</url>
-		<connection>scm:git:https://github.com/tnb-software/camel3-archetype-spring-boot.git</connection>
-		<developerConnection>scm:git:https://github.com/tnb-software/camel3-archetype-spring-boot.git</developerConnection>
+		<connection>scm:git:git://github.com/tnb-software/camel3-archetype-spring-boot.git</connection>
+		<developerConnection>scm:git:git@github.com:tnb-software/camel3-archetype-spring-boot.git</developerConnection>
 		<tag>HEAD</tag>
 	</scm>
 
